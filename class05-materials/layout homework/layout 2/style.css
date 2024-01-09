@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+
+.firstline{
+    height: 300px;
+    border: 3px solid black;
+    clear: both;
+
+}
+
+.secondline{
+    height: 300px;
+    border: 3px solid black;
+    width: 40%;
+    float: left;
+}
+
+.thirdline{
+    height:300px;
+    border: 3px solid black;
+    width: 60%;
+    float:left;
+
+}
