@@ -29,10 +29,46 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header{
+ height: 55px;
+  color: white;
+  background: black;
+}
+
+nav *{
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
+}
+
+nav ul{
+  width: 50%;
+}
+
+header nav input{
+  width: 100%;
+}
+
+main > section{
+  height: 500px;
+  width: 50%;
+  margin-top: 100px;
+  float: left;
+}
+
+main section + section section{
+  width: 50%;
+  height:250px;
+  border: 2px solid black;
+  float: left;
 
 }
 
+main + section section{
+  width: 33.3333%;
+  float: left;
+}
 footer {
 
 }
