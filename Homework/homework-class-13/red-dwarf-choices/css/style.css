@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+body {
+
+}
+
+label{
+  display: block;
+  margin: 10px 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, form {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+form {
+  font-size: 3rem;
+}
+
+button{
+  display: block;
+  margin: 10px auto;
+  font-size: 3rem;
+}
+
+main{
+  display: flex;
+  margin: 20px 10%;
+}
+
+.rimmerGlad, .rimmerSad{
+  width: 48%;
+  height: 300px;
+  display: flex;
+}
+
+/* .hidden{
+  display: none;
+}
+ */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
